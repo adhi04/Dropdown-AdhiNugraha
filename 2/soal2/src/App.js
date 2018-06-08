@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 
 class App extends Component {
@@ -78,7 +78,7 @@ class App extends Component {
        </center>
        <br/><br/><br/><br/><br/><br/><br/><br/>
        <center>
-       { this.state.poin == '' ? 
+       { this.state.poin === '' ? 
          <h3>{this.state.awal}</h3> :
          <div>
             <h5  style={{fontSize:"30px",fontWeight:"bold",marginTop:"20px"}}>{this.state.awal}</h5>
